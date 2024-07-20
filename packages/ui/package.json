@@ -1,0 +1,14 @@
+{
+  "name": "@monorepo/ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsc --build --verbose"
+  },
+  "author": "aric.vvang@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@monorepo/util": "^1.0.0"
+  }
+}

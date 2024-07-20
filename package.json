@@ -1,0 +1,22 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "description": "a monorepo in typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc --build --verbose"
+  },
+  "author": "aric.vvang@gmail.com",
+  "license": "ISC",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@monorepo/ui": "^1.0.0",
+    "@monorepo/util": "^1.0.0"
+  }
+}
